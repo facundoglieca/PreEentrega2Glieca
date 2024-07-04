@@ -1,0 +1,38 @@
+export let products = [
+  {
+    id: 1,
+    title: "Linea GEMA",
+    price: 245000,
+    description: "Linea GEMA",
+    img: "https://res.cloudinary.com/dx1uxwqlq/image/upload/v1719447003/terminaciones_bahia_logo_tvzalk.png",
+    stock: 10,
+    category: "Linea GEMA",
+  },
+  {
+    id: 2,
+    title: "Linea TEKNA",
+    price: 245000,
+    description: "Linea TEKNA",
+    img: "https://res.cloudinary.com/dx1uxwqlq/image/upload/v1719447003/terminaciones_bahia_logo_tvzalk.png",
+    stock: 10,
+    category: "Linea TEKNA",
+  },
+  {
+    id: 3,
+    title: "Linea GEMA",
+    price: 245000,
+    description: "Linea GEMA",
+    img: "https://res.cloudinary.com/dx1uxwqlq/image/upload/v1719447003/terminaciones_bahia_logo_tvzalk.png",
+    stock: 10,
+    category: "Linea GEMA",
+  },
+  {
+    id: 4,
+    title: "Linea TEKNA",
+    price: 245000,
+    description: "Linea TEKNA",
+    img: "https://res.cloudinary.com/dx1uxwqlq/image/upload/v1719447003/terminaciones_bahia_logo_tvzalk.png",
+    stock: 10,
+    category: "Linea TEKNA",
+  },
+];
