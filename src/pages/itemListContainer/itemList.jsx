@@ -2,7 +2,15 @@ import { ProductCard } from "../../components/productCard/ProductCard";
 const ItemList = ({ items }) => {
   console.log(items);
   return (
-    <div style={{ display: "flex", gap: "20px" }}>
+    <div
+      style={{
+        display: "flex",
+        gap: "20px",
+        marginTop: "20px",
+        flexWrap: "wrap",
+        justifyContent: "space-evenly",
+      }}
+    >
       {items.map((elemento) => {
         return (
           <ProductCard
