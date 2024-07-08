@@ -18,6 +18,7 @@ const ItemList = ({ items }) => {
             title={elemento.title}
             description={elemento.description}
             price={elemento.price}
+            id={elemento.id}
           />
         );
       })}
