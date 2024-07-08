@@ -1,6 +1,5 @@
 import "./Navbar.css";
 import { CarWidget } from "../cartWidget/CarWidget";
-import { Outlet } from "react-router-dom";
 import { Link } from "react-router-dom";
 
 export const Navbar = () => {
@@ -21,15 +20,14 @@ export const Navbar = () => {
           </Link>
 
           <ul className="categories">
-            <li>Todo</li>
-            <li>Puertas</li>
-            <li>Terminaciones</li>
+            <Link to="/">Todo</Link>
+            <Link to="/category/LineaGema">Linea GEMA</Link>
+            <Link to="/category/LineaTekna">Linea TEKNA</Link>
           </ul>
 
           <CarWidget />
         </div>
       </>
-      <Outlet />
     </div>
   );
 };
