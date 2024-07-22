@@ -14,6 +14,9 @@ const ItemDetailContainer = () => {
     }
   }, [id]);
 
+  //INFORMACION DEL PRODUCTO
+  //CUANTAS UNIDADES
+
   return <ItemDetail item={item} />;
 };
 

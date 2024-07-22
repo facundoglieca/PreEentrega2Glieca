@@ -4,7 +4,22 @@ const ItemDetail = ({ item }) => {
   return (
     <>
       <div>
-        <h2>{item.title}</h2>
+        <div
+          style={{
+            display: "flex",
+            alignItems: "center",
+            gap: "1rem",
+            justifyContent: "center",
+          }}
+        >
+          <h2>{item.title}</h2>
+
+          <div>
+            {" "}
+            <img src={item.img} alt={item.title} />
+          </div>
+          <div>{item.description}</div>
+        </div>
         <CounterContainer />
       </div>
     </>

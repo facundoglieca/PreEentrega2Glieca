@@ -21,8 +21,8 @@ export const Navbar = () => {
 
           <ul className="categories">
             <Link to="/">Todo</Link>
-            <Link to="/category/LineaGema">Linea GEMA</Link>
-            <Link to="/category/LineaTekna">Linea TEKNA</Link>
+            <Link to="/category/Lineainnova">Linea INNOVA</Link>
+            <Link to="/category/LineaPrimmaPlus">Linea PRIMMA PLUS</Link>
           </ul>
 
           <CarWidget />
